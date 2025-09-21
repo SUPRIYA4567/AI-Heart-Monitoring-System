@@ -18,17 +18,13 @@ This project is a real-time health monitoring solution integrating ECG (AD8232) 
 - Data upload & visualization on ThingSpeak.
 - Portable & low-cost embedded solution.
 
-## 📂 Folder Structure
-- `arduino_code/` – Arduino sketch for sensor interfacing.
-- `raspberry_pi_code/` – Python inference & IoT code.
+## 📂  Structure
+- `arduino_code` – Arduino sketch for sensor interfacing.
+- `raspberry_pi_code – Python inference & IoT code.
 - `dataset/` – Sample dataset for training/testing.
-- `model/` – Trained Edge Impulse model (.eim file).
-- `docs/` – Detailed project report in PDF.
 
 ## 📈 Results
 - Achieved ~92% training accuracy and ~88% testing accuracy.
 - Real-time anomaly detection triggered based on thresholds.
 - Data visualized remotely in real time.
 
-## 📄 License
-MIT License
